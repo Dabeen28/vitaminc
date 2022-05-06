@@ -95,3 +95,31 @@ body {
   margin: 0 auto;
 }
 
+img {
+  display: inline-block;
+}
+
+video {
+  width: 100%;
+  background-size: 110%;
+}
+
+p {
+  margin: 300px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media screen and (max-width:728px) {
+  body {
+    font-size: 12px !important;
+  }
+  .container {
+    width: 100vw;
+  }
+
+  img,
+  video {
+    width: 100vw;
+  }
+}

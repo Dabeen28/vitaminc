@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+
+
+
+html {
+
+  font-size: 10px;
+
+}
+
+
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+
+
+ul, ol, li {
+
+  list-style: none;
+
+}
+
+
+
+body {
+
+   font-family: 'Roboto', 'Noto Sans KR', sans-serif;  
+
+   font-weight: 400;    
+
+   font-size: 12px;    
+
+   line-height: 1.4;
+
+   letter-spacing: -0.64px;  
+
+   color: #333;
+
+   background-color: palegoldenrod;
+
+}
+
+
+
+.clearfix:after {
+
+  content: '';
+
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+
+  clear: both;
+
+}
+
+
+
+.wrap {
+
+ position: relative;
+
+ display: block;
+
+}
+
